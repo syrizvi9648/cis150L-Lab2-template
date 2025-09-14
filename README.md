@@ -50,14 +50,14 @@ It's crucial to test your code to make sure it works as expected.
 5.	./main
 
 6.	First, check that your countdown 5...4...3...2...1...Go! appears correctly. Then, test all grade cases!
-o	Enter 95 (should be 'A')
-o	Enter 85 (should be 'B')
-o	Enter 75 (should be 'C')
-o	Enter 65 (should be 'D')
-o	Enter 55 (should be 'F')
-o	Enter 110 (should be an invalid score message)
-o	Enter -10 (should be an invalid score message)
-o	Finally, enter -1 to make sure the program exits gracefully.
+   o	Enter 95 (should be 'A')
+   o	Enter 85 (should be 'B')
+   o	Enter 75 (should be 'C')
+   o	Enter 65 (should be 'D')
+   o	Enter 55 (should be 'F')
+   o	Enter 110 (should be an invalid score message)
+   o	Enter -10 (should be an invalid score message)
+   o	Finally, enter -1 to make sure the program exits gracefully.
 
 Step 5: Commit and Push Your Changes
 Once you are confident your code works, you need to save your work to GitHub as a backup and so your instructor can see your code.
@@ -73,13 +73,13 @@ The final step is to prove that your program works correctly by submitting scree
 1.	Run your program one last time in the VS Code terminal (./main).
 2.	Capture one or more screenshots that clearly show a complete run of your program, including:
    
-   o	 The initial countdown.
+        o	 The initial countdown.
    
-   o	One test for each letter grade including A, B, C, D, and F grade.
+        o	One test for each letter grade including A, B, C, D, and F grade.
    
-   o	At least two tests for invalid scores (e.g., 110 and -10).
+        o	At least two tests for invalid scores (e.g., 110 and -10).
    
-   o	The program exiting gracefully when you enter -1.
+        o	The program exiting gracefully when you enter -1.
    
 4.	Log in to Canvas, navigate to the Lab 2 assignment, and upload your screenshot(s).
    

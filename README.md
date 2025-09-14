@@ -72,11 +72,16 @@ The final step is to prove that your program works correctly by submitting scree
 
 1.	Run your program one last time in the VS Code terminal (./main).
 2.	Capture one or more screenshots that clearly show a complete run of your program, including:
+   
    o	 The initial countdown.
+   
    o	One test for each letter grade including A, B, C, D, and F grade.
+   
    o	At least two tests for invalid scores (e.g., 110 and -10).
+   
    o	The program exiting gracefully when you enter -1.
-3.	Log in to Canvas, navigate to the Lab 2 assignment, and upload your screenshot(s).
+   
+4.	Log in to Canvas, navigate to the Lab 2 assignment, and upload your screenshot(s).
    
 Congratulations! You have completed Lab 2. I will be able to see your code on GitHub and review your output on Canvas.
 

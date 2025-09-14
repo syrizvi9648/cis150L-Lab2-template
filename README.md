@@ -44,7 +44,7 @@ Step 4: Compile and Test Your Code
 It's crucial to test your code to make sure it works as expected.
 1.	Open the integrated terminal in VS Code (View -> Terminal or Control + `).
 2.	Compile your program using the g++ compiler:
-3.	g++ -std=c++17 -o main main.cpp
+3.	g++ -o main main.cpp
 
 4.	Run the compiled program:
 5.	./main
@@ -67,13 +67,15 @@ Once you are confident your code works, you need to save your work to GitHub as 
 4.	Next, click the "Publish Branch" button (or "Sync Changes") to upload your develop branch and your commit to GitHub.
 
 Step 6: Submit Screenshots on Canvas
+
 The final step is to prove that your program works correctly by submitting screenshots on Canvas.
+
 1.	Run your program one last time in the VS Code terminal (./main).
 2.	Capture one or more screenshots that clearly show a complete run of your program, including:
-o	The initial countdown.
-o	One test for each letter grade including A, B, C, D, and F grade.
-o	At least two tests for invalid scores (e.g., 110 and -10).
-o	The program exiting gracefully when you enter -1.
+   o	 The initial countdown.
+   o	One test for each letter grade including A, B, C, D, and F grade.
+   o	At least two tests for invalid scores (e.g., 110 and -10).
+   o	The program exiting gracefully when you enter -1.
 3.	Log in to Canvas, navigate to the Lab 2 assignment, and upload your screenshot(s).
    
 Congratulations! You have completed Lab 2. I will be able to see your code on GitHub and review your output on Canvas.

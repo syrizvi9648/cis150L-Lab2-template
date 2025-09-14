@@ -1,25 +1,49 @@
 #include <iostream>
 #include <limits> // Required for numeric_limits
+#include <thread> // Required for std::this_thread::sleep_for
+#include <chrono> // Required for std::chrono::seconds
+
+// Using the standard namespace to avoid repeatedly typing `std::`
+using namespace std;
 
 int main() {
     // Variable to store the numerical score entered by the user
     int score = 0;
 
+    // ---==[ TODO 1: Countdown Loop ]==---
+    // Before the grade calculator starts, let's warm up.
+    // Write a `for` loop that counts down from 5 to 1.
+    // Inside the loop, print the current number followed by "...".
+    // To make it look like a real countdown, we will pause for one second
+    // after printing each number. The code for this is provided for you.
+    // After the loop finishes, print "Go!".
+    //
+    // The final output of this section should be:
+    // 5...4...3...2...1...Go!
+    //
+    // Your code goes here:
+    // for ( ... ) {
+    //     cout << i << "..." << flush;
+    //     this_thread::sleep_for(chrono::seconds(1));
+    // }
+    // cout << "Go!" << endl;
+
+
     // --- Lab 2: Introduction to Loops and Branches ---
     // This program calculates the letter grade for a given score.
     // It will repeatedly ask for a score until the user enters -1 to quit.
 
-    std::cout << "--- Grade Calculator ---" << std::endl;
-    std::cout << "Enter a numerical score to get the letter grade." << std::endl;
-    std::cout << "Enter -1 to exit the program." << std::endl;
-    std::cout << "------------------------" << std::endl;
+    cout << "\n\n--- Grade Calculator ---" << endl;
+    cout << "Enter a numerical score to get the letter grade." << endl;
+    cout << "Enter -1 to exit the program." << endl;
+    cout << "------------------------" << endl;
 
     // We will use a `while` loop to keep the program running.
     while (true) {
-        std::cout << "\nPlease enter a score (or -1 to quit): ";
-        std::cin >> score;
+        cout << "\nPlease enter a score (or -1 to quit): ";
+        cin >> score;
 
-        // ---==[ TODO 1: Check for Exit Condition ]==---
+        // ---==[ TODO 2: Check for Exit Condition ]==---
         // Write an `if` statement to check if the user entered -1.
         // If they did, use the `break` keyword to exit the loop.
         //
@@ -30,15 +54,15 @@ int main() {
 
 
         // Input validation: Check if the input was not a number
-        if (std::cin.fail()) {
-            std::cout << "Invalid input. Please enter a number." << std::endl;
-            std::cin.clear(); // Clear the error flag
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Discard bad input
+        if (cin.fail()) {
+            cout << "Invalid input. Please enter a number." << endl;
+            cin.clear(); // Clear the error flag
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard bad input
             continue; // Skip the rest of this loop iteration
         }
 
 
-        // ---==[ TODO 2: Grade Calculation Logic ]==---
+        // ---==[ TODO 3: Grade Calculation Logic ]==---
         // Write a series of `if`, `else if`, and `else` statements
         // to determine the letter grade based on the `score`.
         //
@@ -52,7 +76,7 @@ int main() {
         //
         // Your code goes here:
         // if ( ... ) {
-        //     std::cout << "Grade: A" << std::endl;
+        //     cout << "Grade: A" << endl;
         // } else if ( ... ) {
         //     ...
         // } ... and so on
@@ -60,7 +84,8 @@ int main() {
 
     } // End of while loop
 
-    std::cout << "\nThank you for using the Grade Calculator. Exiting." << std::endl;
+    cout << "\nThank you for using the Grade Calculator. Exiting." << endl;
 
     return 0;
 }
+

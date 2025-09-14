@@ -32,8 +32,11 @@ Working on a separate branch is a safe way to make changes without affecting the
 Step 3: Complete the C++ Code
 1.	In the VS Code Explorer on the left, open the main.cpp file.
 2.	Read through the code and the comments. You will find three sections marked ---==[ TODO ]==---. This is where you need to write your code.
-o	TODO 1: Countdown Loop: Before the main grade calculator starts, you must write a for loop that counts down from 5 to 1. After the loop finishes, it should print "Go!". This task will test your ability to construct a loop from scratch.
+  
+4.	o	TODO 1: Countdown Loop: Before the main grade calculator starts, you must write a for loop that counts down from 5 to 1. After the loop finishes, it should print "Go!". This task will test your ability to construct a loop from scratch.
+   
 o	TODO 2: Check for Exit Condition: Inside the while loop, you need to write an if statement that checks if the user's input (score) is equal to -1. If it is, use the break; command to exit the loop.
+
 o	TODO 3: Grade Calculation Logic: Write a series of if, else if, and else statements to print the correct letter grade based on the score variable. Make sure to handle all cases described in the code comments, including invalid scores.
 
 Step 4: Compile and Test Your Code

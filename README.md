@@ -33,12 +33,11 @@ Step 3: Complete the C++ Code
 1.	In the VS Code Explorer on the left, open the main.cpp file.
 2.	Read through the code and the comments. You will find three sections marked ---==[ TODO ]==---. This is where you need to write your code.
   
-4.
-   o	TODO 1: Countdown Loop: Before the main grade calculator starts, you must write a for loop that counts down from 5 to 1. After the loop finishes, it should print "Go!". This task will test your ability to construct a loop from scratch.
+        o	TODO 1: Countdown Loop: Before the main grade calculator starts, you must write a for loop that counts down from 5 to 1. After the loop finishes, it should print "Go!". This task will test your ability to construct a loop from scratch.
    
-   o	TODO 2: Check for Exit Condition: Inside the while loop, you need to write an if statement that checks if the user's input (score) is equal to -1. If it is, use the break; command to exit the loop.
+        o	TODO 2: Check for Exit Condition: Inside the while loop, you need to write an if statement that checks if the user's input (score) is equal to -1. If it is, use the break; command to exit the loop.
 
-   o	TODO 3: Grade Calculation Logic: Write a series of if, else if, and else statements to print the correct letter grade based on the score variable. Make sure to handle all cases described in the code comments, including invalid scores.
+        o	TODO 3: Grade Calculation Logic: Write a series of if, else if, and else statements to print the correct letter grade based on the score variable. Make sure to handle all cases described in the code comments, including invalid scores.
 
 Step 4: Compile and Test Your Code
 It's crucial to test your code to make sure it works as expected.
@@ -49,15 +48,17 @@ It's crucial to test your code to make sure it works as expected.
 4.	Run the compiled program:
 5.	./main
 
-6.	First, check that your countdown 5...4...3...2...1...Go! appears correctly. Then, test all grade cases!
-   o	Enter 95 (should be 'A')
-   o	Enter 85 (should be 'B')
-   o	Enter 75 (should be 'C')
-   o	Enter 65 (should be 'D')
-   o	Enter 55 (should be 'F')
-   o	Enter 110 (should be an invalid score message)
-   o	Enter -10 (should be an invalid score message)
-   o	Finally, enter -1 to make sure the program exits gracefully.
+6.	First, check that your countdown 5...4...3...2...1...Go! appears correctly.
+7.	Then, test all grade cases!
+   
+        o	Enter 95 (should be 'A')
+        o	Enter 85 (should be 'B')
+        o	Enter 75 (should be 'C')
+        o	Enter 65 (should be 'D')
+        o	Enter 55 (should be 'F')
+        o	Enter 110 (should be an invalid score message)
+        o	Enter -10 (should be an invalid score message)
+        o	Finally, enter -1 to make sure the program exits gracefully.
 
 Step 5: Commit and Push Your Changes
 Once you are confident your code works, you need to save your work to GitHub as a backup and so your instructor can see your code.
